@@ -20,7 +20,7 @@ export default function Nav({
       </nav>
       {showMenu && (
         <nav
-          className={`absolute right-0 top-0 mt-9 flex h-[100vh] w-[50%] flex-col items-center justify-center bg-gray-100 text-2xl lg:hidden `}
+          className={`absolute right-0 top-0 flex h-[100vh] w-[50%] flex-col items-center justify-center bg-gray-100 text-2xl lg:hidden `}
         >
           <button
             onClick={onShowMenu}
