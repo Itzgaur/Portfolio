@@ -11,7 +11,7 @@ export default function ContactCard() {
             alt="email Icon"
             className="h-7 w-7 md:h-9 md:w-9 "
           />
-          <a href="mailto:harshgaur838@gmail.com">
+          <a href="mailto:harshgaur838@gmail.com" rel="noopener noreferrer">
             <h1 className="text-lg text-gray-800 md:text-xl">
               harshgaur838@gmail.com
             </h1>
@@ -23,7 +23,10 @@ export default function ContactCard() {
             alt="linkedIn Icon"
             className="h-7 w-7 md:h-9 md:w-9"
           />
-          <a href="#">
+          <a
+            href="https://www.linkedin.com/in/harsh-gaur-15ba72203/"
+            target="_blank"
+          >
             <h1 className="text:lg text-gray-800  md:text-xl">LinkedIn</h1>
           </a>
         </div>

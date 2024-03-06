@@ -3,7 +3,7 @@ import Intro from "./Intro";
 import { useEffect } from "react";
 import SectionHeading from "../SectionHeading";
 import PreHeading from "../PreHeading";
-import download from "../../data/profile.jpeg";
+import download from "../../data/Harsh_gaur.pdf";
 import { Element } from "react-scroll";
 import Button from "../Button";
 
