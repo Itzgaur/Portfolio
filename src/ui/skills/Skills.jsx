@@ -3,7 +3,7 @@ import PreHeading from "../PreHeading";
 import SectionHeading from "../SectionHeading";
 import SkillCard from "./SkillCard";
 
-const backendSkills = ["NodeJs", "ExpressJS", "Java"];
+const backendSkills = ["NodeJs", "ExpressJS"];
 
 const dataBase = ["MySql", "MongoDb"];
 
