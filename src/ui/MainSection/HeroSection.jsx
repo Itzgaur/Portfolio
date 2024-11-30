@@ -3,7 +3,7 @@ import Intro from "./Intro";
 import { useEffect } from "react";
 import SectionHeading from "../SectionHeading";
 import PreHeading from "../PreHeading";
-import download from "../../data/Harsh_gaur.pdf";
+import resume from "../../data/Harsh_gaur.pdf";
 import { Element } from "react-scroll";
 import Button from "../Button";
 
@@ -58,7 +58,7 @@ export default function HeroSection() {
 
           {/* Buttons for download cv and contact info */}
           <div className="mb-4 flex flex-col items-center justify-center gap-y-5 sm:flex-row sm:gap-x-5">
-            <a href={download} download rel="noopener noreferrer">
+            <a href={resume} download rel="noopener noreferrer">
               <Button>Resume</Button>
             </a>
             <a
