@@ -55,7 +55,7 @@ export default function AboutDetails() {
               ></polygon>
             </svg>
             <h1 className="text-xl font-semibold text-gray-800">Experience</h1>
-            <p className="text-gray-500">2+ years</p>
+            <p className="text-gray-500">3+ years</p>
             <p className="text-gray-500">Web Developer</p>
           </div>
 
